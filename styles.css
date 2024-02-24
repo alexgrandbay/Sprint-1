@@ -1,0 +1,134 @@
+/* Header */
+header {
+    background-color: #00b3de;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+footer {
+    background-color: #00b3de;
+    color: white;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+/* Logo */
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.name {
+    font-size: 40px;
+    color: #f6941d;
+    border: #FFFF;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 130px;
+    -webkit-text-stroke: 1px white;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    background-color: #f6941d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.content p {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+    
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left {
+    grid-column: 1;
+}
+
+.center {
+    grid-column: 2;
+    text-align: center;
+}
+
+.right {
+    grid-column: 3;
+    text-align: right;
+}
+.container2 .box img {
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
